@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.log
+
+# Venv
+venv/
+env/
+ENV/
+.VENV/
+.venv/
+
+# IDE (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# SQLite
+db.sqlite3
+
+# Django
+/staticfiles/
+/media/
+
+# dotenv
+.env
+
+# Migrations (optional, agar birga bo'lish shart bo'lmasa)
+*/migrations/__pycache__/
+*/migrations/*.pyc
+*/migrations/*.pyo
+*/migrations/*.pyd
+
+# Coverage / test
+htmlcov/
+.coverage
+coverage.xml
+nosetests.xml
+test-results.xml
+junit.xml
+
+# Swagger static files (agar collectstatic qilinadigan bo‘lsa)
+static/drf-yasg/
